@@ -119,7 +119,7 @@ public class UserDao extends Queries {
         try (PreparedStatement statement = getConnection(DATABASE).prepareStatement(READ_ALL_QUERY);
              ResultSet resultSet = statement.executeQuery()) {
             while (resultSet.next()) {
-                ArrayList<User>  users= new ArrayList<>();
+                ArrayList<User>  users= new ArrayList<>(); //
                 User user = createUser(resultSet);
                 System.out.println(addToArray(user, users));
             }

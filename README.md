@@ -1,6 +1,6 @@
 # DAO Database Management (CRUD)
 
-A simple program in Java, that allows managing users database through console.
+Java program for managing users database through console.
 
 ## Features
 
