@@ -13,7 +13,7 @@ public class UserMain {
     private static void mainMenu() throws SQLException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Main menu");
-        System.out.println("Choose one of the following commands:"); 
+        System.out.println("Choose one of the following commands:");
         System.out.println("create");
         System.out.println("read");
         System.out.println("update");

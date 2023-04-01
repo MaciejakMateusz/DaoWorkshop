@@ -7,7 +7,7 @@ public class Queries extends DbUtil {
     protected static final String READ_ID_QUERY =
             "SELECT * FROM users WHERE id = ?";
     protected static final String READ_EMAIL_QUERY =
-            "SELECT * FROM users WHERE email = ?"; //
+            "SELECT * FROM users WHERE email = ?";
     protected static final String READ_USERNAME_QUERY =
             "SELECT * FROM users WHERE username = ?";
     protected static final String REMOVE_USER_QUERY =
