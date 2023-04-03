@@ -4,10 +4,10 @@ Java program for managing users database through console.
 
 ## Features
 
-1. Create users
-2. Read - search database by ID, email, username or read all users
-3. Update users
-4. Delete users
+1. Creating users
+2. Reading - search database by ID, email, username or read all users
+3. Updating users
+4. Deleting users
 5. Hashing passwords that enters the database
 
 ## Usage
